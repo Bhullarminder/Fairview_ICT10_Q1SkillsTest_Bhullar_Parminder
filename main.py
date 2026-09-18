@@ -15,7 +15,7 @@ def calculate_total(e):
 
     total = subtotal + tax
 
-    display("Receipt", target="receipt")
+     display("Receipt", target="receipt")
     display(f"Subtotal: ₱{subtotal}", target="receipt")
-    display("Tax: ₱", tax, target="receipt")
-    display("Total: ₱", total, target="receipt")
+    display(f"Tax: ₱{tax}", target="receipt")
+    display(f"Total: ₱{total}", target="receipt")
