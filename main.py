@@ -3,6 +3,7 @@ from pyscript import display, document
 
 def calculate_total(e):
 
+    document.getElementById("receipt").innerHTML = ""
     americano = document.getElementById('americano').checked
     spanish_latte = document.getElementById('spanish_latte').checked
     cold_brew_malt = document.getElementById('cold_brew_malt').checked
